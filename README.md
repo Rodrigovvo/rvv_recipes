@@ -9,7 +9,7 @@
 * Docker-compose
 
 #### Das considerações sobre o projeto
-Este capítulo do README é de documentação pessoal, sobre como foi/é a evolução projeto, contendo informações sobre decisões técnincas e como foi a maneira de pensar o projeto e sugestões/ideias para eventuais melhorias futuras. 
+Este capítulo do README é de documentação pessoal, sobre como foi/é a evolução projeto, contendo informações sobre decisões técnicas e como foi a maneira de pensar o projeto, além de sugestões/ideias para eventuais melhorias futuras. 
 
 * A autenticação do projeto: 'somente alguém autenticado deve cadastrar receitas e demais itens', os demais (não credenciados) terão acesso de leitura.
  - Não houve tempo para implementar um sistema de autenticação mais completo, inicialmente a ideia era implementar via JWT com acesso via TOKEN, pode ser viável em futuras implementações. Foi decidido por utilizar a autenticação padrão, com usuario e senha.
